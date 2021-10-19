@@ -35,11 +35,13 @@ var likePerson = () => {
 var start = () => {
   likes = 0
   tries = 0
+  stop()
   return setInterval(likePerson, config.interval)
 }
 
 var stop = () => {
   clearInterval(startId)
+  startId = undefined
   console.info('stopped')
 }
 startId = start()
