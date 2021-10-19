@@ -5,6 +5,8 @@ Allows you to run a JS script which will continuously click on an interval.
 To use:
 
 - update `config` in `index.js`, in particular `getButton()`
+- open JS console on page
+- paste script and run
 
 ## usages
 
